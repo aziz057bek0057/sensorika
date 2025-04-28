@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-image: url(./img/outside-bg.jpg);
+background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: center;
+   height: 100vh;
+}
+
+section div{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+}
